@@ -26,6 +26,9 @@ window.requestAnimFrame = (function () {
 })();
 
 // add global parameters here
+const PARAMS = {
+    HEARTWIDTH: 32
+};
 
 //var params = {
 // 
