@@ -60,10 +60,10 @@ class Heart{
         this.updateBB();
     };
     draw(ctx){
-        if(PARAMS.DEBUG){
-            ctx.strokeStyle = "Red";
-            ctx.strokeRect(this.BB.x, this.BB.y, this.BB.width, this.BB.height);
-        };
+        // if(PARAMS.DEBUG){
+        //     ctx.strokeStyle = "Red";
+        //     ctx.strokeRect(this.BB.x, this.BB.y, this.BB.width, this.BB.height);
+        // };
         this.animation.drawFrame(this.game.clockTick, ctx, this.x, this.y, 3);
     };
     updateBB(){

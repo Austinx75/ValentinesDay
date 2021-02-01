@@ -23,7 +23,7 @@ class SceneManager{
         this.game.addEntity(this.script);
     };
     update(){
-        PARAMS.DEBUG = document.getElementById("debug").checked;
+        // PARAMS.DEBUG = document.getElementById("debug").checked;
         this.endTimer = Math.floor(Date.now() /100);
         this.elapsedTime = this.endTimer - this.startTimer;
    
