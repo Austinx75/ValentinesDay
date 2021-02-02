@@ -36,7 +36,7 @@ class Script{
             ctx.strokeStyle = "Red";
             ctx.strokeRect(this.BB.x, this.BB.y, this.BB.width, this.BB.height);
         };
-        this.animation.drawFrame(this.game.clockTick, ctx, this.width, this.height, 1);
+        this.animation.drawFrame(this.game.clockTick, ctx, this.width, this.y, 1);
     };
 };
 class Heart{
